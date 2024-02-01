@@ -60,6 +60,9 @@
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                        <connections>
+                                            <action selector="logInButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QQY-30-UzZ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemCyanColor"/>

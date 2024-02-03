@@ -9,18 +9,20 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="190" id="KGk-i7-Jjw" customClass="CustomTableViewCell" customModule="FinalExamIOS" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="190"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="150" id="KGk-i7-Jjw" customClass="CustomTableViewCell" customModule="FinalExamIOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="190"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkmark.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="QC7-aB-LuL">
-                        <rect key="frame" x="240" y="11" width="70" height="168.66666666666666"/>
+                        <rect key="frame" x="240" y="7.6666666666666714" width="70" height="135.33333333333331"/>
+                        <color key="tintColor" red="0.070588235289999995" green="0.54901960780000003" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="asdasgdyaggjhgdgahghjagdgjaghjdajgjhadgdjgajgagdjagajgagjgajgjagd" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZ5-ET-5wD">
-                        <rect key="frame" x="10" y="10" width="200" height="170"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="asdasgdyaggjhgdgahghjagdgjaghjdajgjhadgdjgajgagdjagajgagjgajgjagd" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZ5-ET-5wD">
+                        <rect key="frame" x="10" y="58.333333333333343" width="200" height="33.666666666666657"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="200" id="MOK-Uf-qKZ"/>
                         </constraints>
@@ -29,13 +31,14 @@
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
+                <color key="backgroundColor" red="0.86274509803921573" green="0.97254901960784312" blue="0.77647058823529413" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 <constraints>
-                    <constraint firstItem="QC7-aB-LuL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="AQT-RT-7O8"/>
-                    <constraint firstAttribute="bottom" secondItem="QC7-aB-LuL" secondAttribute="bottom" constant="10" id="Bie-V9-IAJ"/>
-                    <constraint firstItem="VZ5-ET-5wD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="FIY-80-hks"/>
+                    <constraint firstItem="QC7-aB-LuL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="5ts-B1-Ye0"/>
+                    <constraint firstAttribute="bottom" secondItem="QC7-aB-LuL" secondAttribute="bottom" constant="10" id="IrE-ZJ-gki"/>
+                    <constraint firstItem="QC7-aB-LuL" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="KUv-D8-ETl"/>
                     <constraint firstItem="VZ5-ET-5wD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="UEo-KI-ZUa"/>
-                    <constraint firstAttribute="bottom" secondItem="VZ5-ET-5wD" secondAttribute="bottom" constant="10" id="XM3-Xr-2B5"/>
-                    <constraint firstItem="QC7-aB-LuL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="240" id="j1r-QM-LnT"/>
+                    <constraint firstItem="QC7-aB-LuL" firstAttribute="leading" secondItem="VZ5-ET-5wD" secondAttribute="trailing" constant="30" id="aKK-SG-BQK"/>
+                    <constraint firstItem="VZ5-ET-5wD" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="bcw-sT-TuX"/>
                     <constraint firstAttribute="trailing" secondItem="QC7-aB-LuL" secondAttribute="trailing" constant="10" id="tcK-Ey-Bxl"/>
                 </constraints>
             </tableViewCellContentView>
@@ -44,7 +47,7 @@
                 <outlet property="checkImageView" destination="QC7-aB-LuL" id="gek-gH-zlF"/>
                 <outlet property="titleLabel" destination="VZ5-ET-5wD" id="klZ-hH-WcQ"/>
             </connections>
-            <point key="canvasLocation" x="129.7709923664122" y="51.408450704225352"/>
+            <point key="canvasLocation" x="123.66412213740458" y="-33.098591549295776"/>
         </tableViewCell>
     </objects>
     <resources>

@@ -2,7 +2,7 @@
 //  Posts.swift
 //  FinalExamIOS
 //
-//  Created by Andrea Hernandez on 1/31/24.
+//  Created by Adrian Garcia on 1/31/24.
 //
 
 import Foundation

@@ -65,6 +65,8 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     // Funciones de UITableViewDelegate y UITableViewDataSource para usersTableView
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        //Determina la cantidad de filas que debe tener la tabla en función de la tabla que está solicitando la información.
+        //A traves de operadores ternarios
         return tableView == usersTableView ? users.count : todosSpecific.count
     }
     
@@ -77,12 +79,13 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
             let todo = todosSpecific[indexPath.row]
             cell.titleLabel.text = todo.title
             
-            // Configurar el color del checkmark según el valor de "completed"
-            if todo.completed {
-                cell.checkImageView.tintColor = UIColor.systemRed
-            } else {
-                cell.checkImageView.tintColor = UIColor.systemGreen
-            }
+//            // Configurar el color del checkmark según el valor de "completed"
+//            if todo.completed {
+//                cell.checkImageView.tintColor = UIColor.systemGreen
+//            } else {
+//                cell.checkImageView.tintColor = UIColor.systemRed
+//            
+//            }
         }
         
         return cell
@@ -140,7 +143,7 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         if tableView == toDosSpecificTableView {
             // Configurar el color del checkmark al cargar la celda
             let todo = todosSpecific[indexPath.row]
-            let color: UIColor = todo.completed ? .systemRed : .systemGreen
+            let color: UIColor = todo.completed ? .systemGreen : .systemRed // Cambiar el orden de colores
             if let customCell = cell as? CustomTableViewCell {
                 customCell.checkImageView.tintColor = color
             }

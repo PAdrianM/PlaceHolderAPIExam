@@ -11,6 +11,6 @@ struct Todo: Codable {
     
     let title: String
     let userId: Int
-    var completed: Bool
+    let completed: Bool
 
 }

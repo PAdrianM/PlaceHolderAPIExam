@@ -25,6 +25,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="300" id="gH1-Ra-7vl"/>
                                         </constraints>
+                                        <color key="separatorColor" red="0.070588235289999995" green="0.54901960780000003" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="sectionIndexBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="customCellDetail" rowHeight="50" id="g8T-ZJ-qGM">
@@ -56,6 +57,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="300" id="bw6-hw-pFX"/>
                                         </constraints>
+                                        <color key="separatorColor" red="0.070588235289999995" green="0.54901960780000003" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="sectionIndexBackgroundColor" red="0.51764705879999995" green="0.69019607839999997" blue="0.62352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="customCellDetail" rowHeight="50" id="B0d-j8-Vax">
@@ -137,6 +139,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="300" id="Qnt-zP-PBU"/>
                                         </constraints>
+                                        <color key="separatorColor" red="0.070588235289999995" green="0.54901960780000003" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="customCell" rowHeight="50" id="5GT-Cm-BXF">
                                                 <rect key="frame" x="0.0" y="50" width="313" height="50"/>
@@ -166,6 +169,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="300" id="aen-gd-7fa"/>
                                         </constraints>
+                                        <color key="separatorColor" red="0.070588235289999995" green="0.54901960780000003" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="postsCell" rowHeight="50" id="eoo-K3-Her">
                                                 <rect key="frame" x="0.0" y="50" width="313" height="50"/>

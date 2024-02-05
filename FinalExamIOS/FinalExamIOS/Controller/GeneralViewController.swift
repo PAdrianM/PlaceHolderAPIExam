@@ -85,6 +85,8 @@ class GeneralViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     // Funciones de UITableViewDelegate y UITableViewDataSource
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        //Determina la cantidad de filas que debe tener la tabla en función de la tabla que está solicitando la información.
+        //A traves de operadores ternarios
         return tableView == postsTableView ? posts.count : todos.count
     }
     

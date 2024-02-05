@@ -34,13 +34,14 @@ class ViewController: UIViewController {
                     // Credenciales válidas, navegar a la siguiente pantalla
                     //Instanciamos el storybord como UItoryboard y nombramos el viewController que usaremos
                     let storyboard = UIStoryboard(name: "TabBarController", bundle: nil)
-                    //LLamamos el el viewController al que deseamos llegar con el Storyboard ID
+                    //LLamamos el viewController al que deseamos llegar con el Storyboard ID
                     let newViewController = storyboard.instantiateViewController(withIdentifier: "TabBarViewController")
                     //Pusheamos a la nueva ventana a traves del naigationController con los parametros ddentro de newViewController
                     self.navigationController?.pushViewController(newViewController, animated: true)
+                    
                     self.passwordTextField.text = ""
                     self.emailTextField.text = ""
-                    self.showAlert(message: "Valid credentials with email: \(email) and password: \(password)")
+                    self.showAlert(message: "Welcome user: \(email), with password: \(password)")
                 } else {
                     // Credenciales inválidas, mostrar mensaje de error
                     self.showAlert(message: "Verify that your credentials are correct.")
